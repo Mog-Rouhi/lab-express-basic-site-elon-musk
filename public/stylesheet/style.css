@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(106, 3, 3);
+    color: white;
+    font-family: courier;
+    line-height: 40px;
+    text-align: justify;
+    padding: 5% 10%;
+}
+
+h1 {
+    text-align: center;
+}
+#home-title{
+    font-family: courier;
+    font-size: 8rem;
+    margin: 0;
+    padding-bottom: 40px; 
+    font-weight: 5;
+}
+
+img.works-img{
+    width: 80%;
+}
+
+#about{
+    font-size: 23px;
+    
+}
+
+img.gallery{
+    max-width: 40%;
+    min-width: 40%;
+    padding: 10px;
+    align-self: center;
+
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+img.gallery:hover{
+    border: 1px solid #777;
+    min-width: 80%;
+    cursor: pointer;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    overflow: hidden;
+
+    
+}
+
+.links a{
+    padding: 14px;
+    text-decoration: none;
+    color: aqua;
+    float: left;
+    display: block;
+    text-align: center;
+
+}
+
+#works-heading {
+    
+    position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#images-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-image{
+display: flex;
+align-items: center;
+margin: 1rem auto;
+}
